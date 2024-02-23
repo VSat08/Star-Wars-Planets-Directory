@@ -1,7 +1,7 @@
-Star Wars Planets Directory
-Welcome to the Star Wars Planets Directory! This web application showcases planets from the Star Wars universe, providing detailed information about each planet along with its notable residents. This project demonstrates proficiency in API integration, frontend development, and the creation of responsive and stylish user interfaces.
+# Star Wars Planets Directory
+- Welcome to the Star Wars Planets Directory! This web application showcases planets from the Star Wars universe, providing detailed information about each planet along with its notable residents. This project demonstrates proficiency in API integration, frontend development, and the creation of responsive and stylish user interfaces.
 
-Features
+## Features
 
 1. Planets Directory
    Fetches and displays information about planets from the Star Wars API (SWAPI).
@@ -21,20 +21,18 @@ Features
    Axios: HTTP client for making API requests.
    Responsive Design: Ensures the application is accessible and usable across various devices and screen sizes.
 
-Getting Started
-Clone the repository: git clone https://github.com/your-username/star-wars-planets-directory.git
-Install dependencies with npm install.
-Start the development server using npm start.
-Open http://localhost:8080 in your browser to view the app.
-Navigate to the project directory: cd star-wars-planets-directory
-Install dependencies: npm install
-Start the development server: npm start
-Open your browser and visit http://localhost:3000 to view the application.
-Credits
-Star Wars API (SWAPI): For providing the data used in this project.
-React Documentation: For guidance on building React applications.
-Material-UI: For inspiration and components for styling the user interface.
+## Getting Started
+- Clone the repository: git clone https://github.com/your-username/star-wars-planets-directory.git
+- Install dependencies with npm install.
+- Start the development server using npm start.
+- Open your browser and visit http://localhost:3000 to view the application.
+  
+## Credits
++ Star Wars API (SWAPI): For providing the data used in this project.
++ React Documentation: For guidance on building React applications.
++ Material-UI: For inspiration and components for styling the user interface.
 
-Contributors
-Your Name
-Satyam Verma
+## Contributors
+- Satyam Verma
+# Preview
+<img width="1256" alt="Screenshot 2024-02-24 023539" src="https://github.com/VSat08/Star-Wars-Planets-Directory/assets/88581395/b9891dad-0803-4cb2-9994-33761a1bc191">
