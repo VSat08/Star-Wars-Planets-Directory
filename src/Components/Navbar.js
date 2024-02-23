@@ -25,7 +25,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className={`right-section ${sidebarOpen ? "open" : ""}`}>
-          <Link to="/Star-Wars-Planets-Directory/" className="text-wrapper-2">
+          <Link to="/" className="text-wrapper-2">
             Home
           </Link>
           <Link to="/directory" className="text-wrapper-2">
@@ -45,7 +45,7 @@ const Navbar = () => {
           </div>
           <div className="sidebar-content">
             <Link
-              to="/Star-Wars-Planets-Directory/"
+              to="/"
               className="text-wrapper-2 sidebarLinks"
             >
               Home
