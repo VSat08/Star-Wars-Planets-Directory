@@ -25,7 +25,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className={`right-section ${sidebarOpen ? "open" : ""}`}>
-          <Link to="/" className="text-wrapper-2">
+          <Link to="/Star-Wars-Planets-Directory" className="text-wrapper-2">
             Home
           </Link>
           <Link to="/directory" className="text-wrapper-2">
@@ -44,20 +44,23 @@ const Navbar = () => {
             &times;
           </div>
           <div className="sidebar-content">
-            <Link to="/" className="text-wrapper-2 sidebarLinks">
-              Home{" "}
+            <Link
+              to="/Star-Wars-Planets-Directory"
+              className="text-wrapper-2 sidebarLinks"
+            >
+              Home
               <span className="material-symbols-outlined">trending_up</span>
             </Link>
             <Link to="/directory" className="text-wrapper-2 sidebarLinks">
-              Planets Directory{" "}
+              Planets Directory
               <span className="material-symbols-outlined">trending_up</span>
             </Link>
             <Link to="/about" className="text-wrapper-2 sidebarLinks">
-              About{" "}
+              About
               <span className="material-symbols-outlined">trending_up</span>
             </Link>
             <Link to="/dev" className="text-wrapper-2 sidebarLinks">
-              Developer{" "}
+              Developer
               <span className="material-symbols-outlined">trending_up</span>
             </Link>
           </div>

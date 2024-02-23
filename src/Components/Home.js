@@ -12,7 +12,7 @@ const Home = () => {
         <button className="explore-button">
           <Link to="/directory" className="buttonLinks">
             Explore Planets
-          </Link>{" "}
+          </Link>
           <span
             class="material-symbols-outlined"
             style={{ transform: "scale(1.3)" }}
