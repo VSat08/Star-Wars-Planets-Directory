@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Star-Wars-Planets-Directory/static/css/main.72d3e36d.css",
-    "main.js": "/Star-Wars-Planets-Directory/static/js/main.ff75e4f1.js",
+    "main.js": "/Star-Wars-Planets-Directory/static/js/main.748e192f.js",
     "static/js/453.0dc32eef.chunk.js": "/Star-Wars-Planets-Directory/static/js/453.0dc32eef.chunk.js",
     "static/media/download (1).jpg": "/Star-Wars-Planets-Directory/static/media/download (1).fb90cf9c8d80e59a7f2f.jpg",
     "static/media/wallpaperflare.com_wallpaper (5).jpg": "/Star-Wars-Planets-Directory/static/media/wallpaperflare.com_wallpaper (5).8ffb783029f93f172284.jpg",
@@ -10,11 +10,11 @@
     "static/media/logo.png": "/Star-Wars-Planets-Directory/static/media/logo.7dbbc1107183445dbc0d.png",
     "index.html": "/Star-Wars-Planets-Directory/index.html",
     "main.72d3e36d.css.map": "/Star-Wars-Planets-Directory/static/css/main.72d3e36d.css.map",
-    "main.ff75e4f1.js.map": "/Star-Wars-Planets-Directory/static/js/main.ff75e4f1.js.map",
+    "main.748e192f.js.map": "/Star-Wars-Planets-Directory/static/js/main.748e192f.js.map",
     "453.0dc32eef.chunk.js.map": "/Star-Wars-Planets-Directory/static/js/453.0dc32eef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72d3e36d.css",
-    "static/js/main.ff75e4f1.js"
+    "static/js/main.748e192f.js"
   ]
 }
