@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <BrowserRouter basename="/Star-Wars-Planets-Directory">
+      <BrowserRouter>
         <Routes>
           <Route path="/Star-Wars-Planets-Directory/" element={<Home />} />
           <Route path="/directory" element={<Directory />} />
