@@ -6,17 +6,20 @@ import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import { About } from "./Components/About";
 import Developer from "./Components/Developer";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Routes>
-        <Route path="/Star-Wars-Planets-Directory/" exact element={<Home />} />
-        <Route path="/directory" element={<Directory />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/dev" element={<Developer />} />
-      </Routes>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/directory" element={<Directory />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/dev" element={<Developer />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
