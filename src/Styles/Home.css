@@ -1,0 +1,164 @@
+/* Home.css */
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: url("https://r4.wallpaperflare.com/wallpaper/795/498/443/star-wars-video-games-star-wars-battlefront-ii-star-wars-battlefront-2-clone-trooper-hd-wallpaper-b9d0286d816a3ddba687789fe051066d.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  cursor: cell;
+}
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.container {
+  max-width: 1200px;
+  width: 90%;
+  text-align: center;
+  z-index: 2;
+}
+
+.title {
+  font-size: 2rem;
+  color: #f1f1f1;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  align-items: flex-start;
+}
+
+.explore-button {
+  background-color: rgba(214, 214, 214, 0.2);
+  backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 16px;
+  text-align: center;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  display: flex;
+  margin: 0 auto;
+  color: #ffffff;
+  cursor: pointer;
+}
+.buttonLinks {
+  text-decoration: none;
+  color: #fff;
+}
+.rightcol {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.caption {
+  text-align: left;
+}
+.caption span {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #fff;
+}
+.text-wrapper {
+  text-decoration: none;
+}
+.caption .text-wrapper {
+  font-weight: 200;
+  color: #bcbcbc;
+  font-size: 1rem;
+}
+.info {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #c5c5c5;
+}
+
+@media (min-width: 768px) {
+  .title {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .explore-button {
+    text-align: center;
+    padding: 20px 25px;
+    font-size: 1.2rem;
+  }
+
+  .col {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .caption {
+    text-align: left;
+    width: 90%;
+    margin-right: 20px;
+  }
+
+  .info {
+    text-align: right;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title {
+    text-align: center;
+    font-size: 4.5rem;
+  }
+  .explore-button {
+    padding: 20px 25px;
+    font-size: 1.4rem;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .caption {
+    width: auto;
+    margin: 0px;
+  }
+  .caption span {
+    font-size: 3rem;
+  }
+  .caption .text-wrapper {
+    font-size: 1.4rem;
+  }
+  .info {
+    width: 400px;
+    font-size: 1rem;
+    margin-top: 60%;
+  }
+}
+.footer {
+  width: 100%;
+  color: #b7b4b4;
+  text-align: center;
+}

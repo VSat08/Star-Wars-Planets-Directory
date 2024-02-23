@@ -1,0 +1,88 @@
+/* Base styles */
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background-color: rgba(18, 18, 18, 0.7);
+  backdrop-filter: blur(10px);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  color: #fff;
+  width: 80%;
+  border-radius: 20px;
+  font-size: 16px; 
+}
+@media (min-width: 1200px) {
+  .modal-content {
+ 
+  margin: 15% auto;
+  }
+}
+.close {
+  color: #7a7979;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgb(29, 28, 28);
+  color: #fff;
+  font-size: 14px; 
+}
+
+table,
+th,
+td {
+  border: 1px solid #ffffff77;
+  padding: 10px;
+}
+
+thead {
+  background: linear-gradient(45deg, #b721ff, #21d4fd);
+}
+
+th {
+  color: #fff;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  .modal-content {
+    width: 90%;
+    margin: 40% auto;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 14px;
+  }
+
+  .close {
+    font-size: 20px;
+  }
+
+  table,
+  th,
+  td {
+    padding: 8px;
+    font-size: 12px;
+  }
+}

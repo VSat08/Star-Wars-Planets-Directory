@@ -1,0 +1,132 @@
+.navbar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 50;
+}
+.navbar nav{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: rgba(0, 0, 0,.8); */
+  /* backdrop-filter: blur(10px); */
+  padding: 10px 1rem;
+}
+@media (min-width: 1200px) {
+  .navbar nav{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 4rem;
+}
+}
+
+.left-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-wrapper {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 24px;
+  text-align: start;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 20px;
+}
+.text-wrapper span{
+    font-size: 14px;
+    text-align: end;
+    display: block;
+}
+.hamburger {
+  cursor: pointer;
+  display: none; /* Hide hamburger button by default */
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #e9e2e2;
+  margin: 5px 0;
+  border-radius: 20px;
+}
+
+.right-section {
+  display: flex;
+  gap: 20px;
+}
+
+.text-wrapper-2 {
+    display: block;
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+  text-decoration: none;
+}
+.sidebarLinks{
+    letter-spacing: 4px;
+      /* border: 1px solid red ; */
+  text-align: start;
+  padding: 10px 0 10px 25px;
+  font-size: 25px;
+}
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 100;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background:linear-gradient(to right, rgba(0,0,0,.9),rgba(17, 17, 17,.3));
+  backdrop-filter: blur(10px);
+  transition: 0.4s ease-out;
+}
+
+.sidebar-content {
+  padding: 20px;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.close-btn {
+  color: #ffffff;
+  font-size: 44px;
+  cursor: pointer;
+  text-align: end;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .left-section {
+    width: 100%;
+  }
+
+  .right-section {
+    display: none;
+  }
+
+  .hamburger {
+    display: block; /* Show hamburger button on smaller screens */
+  }
+
+  .sidebar {
+    width: 80%;
+    left: -80%;
+  }
+}
+.nav-footer{
+    margin-bottom: 25px;
+color: #767676;
+}

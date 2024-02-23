@@ -1,0 +1,37 @@
+.planet-card {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  color: #f0f0f0;
+  margin: 15px;
+  padding: 15px;
+  width: 300px;
+}
+
+.planet-card h2 {
+  margin-bottom: 10px;
+  color: #c5c2c2;
+}
+
+.planet-card p {
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+  color: #c6c5c5;
+}
+.planet-card button {
+  margin-top: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #c4c4c4;
+  outline: none;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.planet-card button:hover {
+  border: none;
+  transform: scale(1.1);
+}
