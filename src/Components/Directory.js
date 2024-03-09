@@ -9,7 +9,7 @@ import "../Styles/Directory.css";
 const Directory = () => {
   const [planets, setPlanets] = useState([]);
   const [currentPageUrl, setCurrentPageUrl] = useState(
-    "https://swapi.dev/api/planets/?format=json"
+    "https://swapi.py4e.com/api/planets/"
   );
   const [nextPageUrl, setNextPageUrl] = useState(null);
   const [prevPageUrl, setPrevPageUrl] = useState(null);
